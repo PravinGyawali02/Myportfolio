@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Space+Grotesk:wght@500&family=Tsukimi+Rounded:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-color: gray;
+}
+body {
+  color: black;
+  background-color: white;
+}
+.user_Heading {
+  position: sticky;
+  top: 10px;
+  left: 10px;
+  margin: 10px 0px 0px 0px;
+  width: 15vw;
+}
+.user_Heading > H1,
+p {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+.social-media {
+  width: 100px;
+  float: right;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 3px;
+  left: 92%;
+}
+.social-media > img {
+  width: 30px;
+  margin: 0px 5px;
+  height: 30px;
+}
+.social-media > img:hover {
+  background-color: white;
+  color: white;
+  filter: invert();
+  border: 1px solid white;
+  border-radius: 45px;
+}
+.menu {
+  position: sticky;
+  top: 0px;
+  padding: 15px 0px;
+}
+.menu > nav > ul {
+  position: sticky;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: auto;
+}
+.menu > nav > ul > li > a {
+  position: sticky;
+  top: 0px;
+  margin: 0px 55px;
+  padding: 10px 15px;
+  font-family: "Space Grotesk", sans-serif;
+  text-decoration: none;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: black;
+}
+.menu > nav > ul > li > a:hover {
+  border-radius: 5px;
+  color: aliceblue;
+  background-color: black;
+}
+main > .myinfo {
+  margin-top: 100px;
+  width: 100vw;
+  height: 70vh;
+}
+main > .myinfo > .text {
+  border: 2px solid white;
+  width: max-content;
+  margin-top: 100px;
+  margin-left: 50px;
+  padding: 20px;
+  font-family: "Tsukimi Rounded", sans-serif;
+}
+main > .myinfo > .text > p {
+  font-size: 50px;
+  text-transform: capitalize;
+}
+main > .myinfo > .text > span {
+  font-size: 25px;
+}
+main > .myinfo > .text:hover {
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+}
+main > .myinfo > .btns {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 600px;
+  height: 60px;
+  margin-left: 500px;
+}
+main > .myinfo > .btns > input {
+  width: fit-content;
+  font-size: 30px;
+  font-family: "Space Grotesk", sans-serif;
+  margin: 0px 30px;
+  background-color: white;
+  border: 2px solid black;
+  padding: 5px;
+}
+main > .myinfo > .btns > input:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  display: block;
+  margin: 0px auto;
+  position: fixed;
+  bottom: 0px;
+}
+footer > p {
+  font-size: 20px;
+  text-align: center;
+}
